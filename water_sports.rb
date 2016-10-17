@@ -7,11 +7,11 @@ puts "What do you feel like doing? '\n' "
 puts "Options: Scuba Diving, Snorkeling, Surfing '\n' "
 activity = gets.chomp.downcase
 
-if activity == "scuba diving"
+if activity == "scuba diving!"
   puts "Cool! prepare to see a new world"
-elsif activity == "snorkeling"
+elsif activity == "snorkeling!"
   puts "Great! you'll enjoy it "
-elsif activity == "surfing"
+elsif activity == "surfing!"
   puts "Awesome! you are extreme!!!"
 else
   puts "Fine, I'll pick one for you"
